@@ -6,10 +6,11 @@ import CalendarIcon from 'react-icons/lib/fa/calendar-plus-o'
 import Modal from 'react-modal'
 import ArrowRightIcon from 'react-icons/lib/fa/arrow-circle-right'
 import Loading from 'react-loading'
+import FoodList from '/home/john/Code/react/udacity-code/Part3-ReactRedux/Lesson2-Part2-Udacimeals/src/components/FoodList.js'
 import { fetchRecipes } from '../utils/api'
-import { FoodList } from './Foodlist'
 
 class App extends Component {
+  //local state
   state = {
     foodModalOpen: false,
     meal:null,
